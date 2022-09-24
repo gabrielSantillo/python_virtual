@@ -6,3 +6,5 @@ try:
     print(city.content)
 except wikipedia.exceptions.PageError:
     print("This city is invalid. \nTry again.")
+except:
+    print("Sorry, something went wrong. The appropriate person has been notified.")
